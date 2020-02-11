@@ -1,0 +1,108 @@
+* {
+    -fx-primary : #FFFFFF;
+    -fx-secondary : #003200;
+    -fx-primarytext : #000000;
+    -fx-secondarytext: #FFFFFF;
+    -fx-very-good: #007300;
+    -fx-good: #4CCC4C;
+    -fx-average: #FFF400;
+    -fx-sufficient: #E79E19;
+    -fx-bad: #DD0000;
+    -fx-very-bad: #8D1010;
+    -fx-no-data: #888888;
+}
+
+.root{
+    -fx-background-color: -fx-primary;
+}
+
+.background {
+    -fx-background-color: -fx-very-good;
+}
+
+.glyph-icon{
+    -fx-fill: -fx-primarytext;
+}
+
+.button{
+    -fx-text-fill: -fx-primarytext;
+}
+
+.login-button{
+    -fx-border-color: -fx-secondary;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+}
+
+.login-button:hover{
+    -fx-border-color: -fx-secondary;
+    -fx-background-color: -fx-secondary;
+    -fx-text-fill: -fx-primary;
+}
+
+.text-field{
+    -fx-text-fill: -fx-secondary;
+    -fx-font-size: 18px;
+    -jfx-focus-color: -fx-secondarytext;
+
+}
+
+.wrong-credentials {
+    -jfx-unfocus-color: -fx-bad;
+    -jfx-focus-color: -fx-bad;
+}
+
+.right-label {
+    -fx-text-fill: -fx-good;
+}
+
+.wrong-label {
+    -fx-text-fill: -fx-bad;
+}
+
+.very-good {
+    -fx-background-color: -fx-very-good;
+    -fx-text-fill: -fx-secondarytext;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.good {
+    -fx-background-color: -fx-good;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.average {
+    -fx-background-color: -fx-average;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.sufficient {
+    -fx-background-color: -fx-sufficient;
+    -fx-text-fill: -fx-secondarytext;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.bad {
+    -fx-background-color: -fx-bad;
+    -fx-text-fill: -fx-secondarytext;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.very-bad {
+    -fx-background-color: -fx-very-bad;
+    -fx-text-fill: -fx-secondarytext;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.no-data {
+    -fx-background-color: -fx-no-data;
+    -fx-text-fill: -fx-secondarytext;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
